@@ -1,1 +1,12 @@
 # CS678-Web-affordability
+Introduction
+Study context
+E-governance is the integration of Information and Communication Technology (ICT) into the government system to make the working processes efficient, accessible, and convenient. [4] Pakistan has seen a rapid rise in the adoption and prevalence of e-government services in the past few years. To contextualize this development, Pakistan’s E-Government Development Index (EGDI) has risen from 0.25 in 2003 to 0.42 in 2022. [3] While the index value is significantly smaller than the world’s average of 0.61, it can be argued that Pakistan is a developing region faced with numerous hurdles, including the public’s capacity to operate technical websites, infrastructural limitations, a lack of awareness, and high data privacy and trust issues with the government. [5] Despite these challenges, digital government development trends in Pakistan indicate steady growth and improvement.
+Web Affordability
+Previous work in the space of digital governance in the Pakistani region has focused on the user adoption of e-government services [5], the challenges of implementing e-government services [6], and citizens’ understanding and expectations of public e-government sites [7]. However, there has been no work that examines the web affordability of government public websites. A recent study by Qazi et al. highlighted the rising complexity of the Web, making affordability a big concern as it limits users’ access to Internet services. The study collected the sizes of landing pages of the Alexa top 100 websites from 8 developing countries with different average broadband prices and presented a new fairness metric for affordability (PAW). [1]
+Our contributions
+Our research is an extension of Qazi et al. [1] work on web affordability and inclusion. We aim to study and evaluate the affordability of 100 e-government websites and present design implications in the present e-services that could increase web affordability in the region. Our key contributions will be:
+Exploring the complexity of non-landing pages of public websites.
+Identifying a set of metrics to characterize the complexity of websites.
+Finding out features that make public websites sub-optimal and recommending design implications that could optimize website performance and user experience.
+Comparing and contrasting the affordability of Pakistani public sites against the global dataset of public sites through an affordability metric.
