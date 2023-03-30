@@ -22,4 +22,4 @@ def filter_urls_above_priority(filename, priority_threshold):
         for url in urls_above_priority:
             f.write(url + '\n')
 
-filter_urls_above_priority('sites\cms.ndma.gov.pk.xml', 0.8)
+filter_urls_above_priority('sites\\nepra.org.pk.xml', 0.8)
