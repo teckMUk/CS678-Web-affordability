@@ -25,10 +25,9 @@ with open('Scripts\lighthouse_done.txt', 'r') as f:
 for i in tqdm(range(len(URLs))):
     newdict[URLs[i]] = get_lighthouse_score(URLs[i])
 
-    
-    with open('\Scripts\lighthouse_results\\'+ URLs[i]+'.json', 'w') as f:
+    with open('.\Scripts\lighthouse_results\\'+ URLs[i]+'.json', 'w+') as f:
         json.dump(newdict[URLs[i]], f)
-        time.sleep(5)
+        time.sleep(8)
 
     # append the URL to the lighthouse_done.txt file
     with open('Scripts\lighthouse_done.txt', 'a') as f:
