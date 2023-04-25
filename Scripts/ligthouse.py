@@ -8,7 +8,8 @@ def get_lighthouse_score(url):
     
     apiKey =  "&key=AIzaSyDjUSABsl8wRbIInM_xnQNnimhdPbYoip4"
     base_url = 'https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url='
-    res = requests.get(base_url + 'https://www.'+url+apiKey)
+    url = base_url + 'https://www.'+url+apiKey
+    res = requests.get(url)
     
     return res.json()
 
