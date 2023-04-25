@@ -22,3 +22,5 @@ pakistan.gov.pk
 piac.com.pk
 rescue.gov.pk
 supremecourt.gov.pk
+mohr.gov.pk
+moip.gov.pk
