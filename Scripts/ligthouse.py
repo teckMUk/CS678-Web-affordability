@@ -9,12 +9,16 @@ def get_lighthouse_score(url):
     apiKey =  "&key=AIzaSyDjUSABsl8wRbIInM_xnQNnimhdPbYoip4"
     base_url = 'https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url='
     url = base_url + 'https://www.'+url+apiKey
+        
     res = requests.get(url)
+    if res.status_code >= 400:
+        print("failed On:", url)
+        return "Error"
     
     return res.json()
 
 sites_dir = os.path.join(os.getcwd(), 'sites')
-
+# sites_dir = os.completed
 files = os.listdir(sites_dir)
 
 URLs = [x.replace('.xml', '') for x in files if x.endswith('.xml')]
