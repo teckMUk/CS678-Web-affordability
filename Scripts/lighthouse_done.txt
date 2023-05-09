@@ -1,3 +1,13 @@
 mohr.gov.pk
-moip.gov.pk
-moit.gov.pk
+agfp.gov.pk
+finance.gov.pk
+ignite.org.pk
+mocc.gov.pk
+mohw.gov.pk
+nadra.gov.pk
+nepra.org.pk
+nih.org.pk
+nitb.gov.pk
+piac.com.pk
+rescue.gov.pk
+supremecourt.gov.pk
